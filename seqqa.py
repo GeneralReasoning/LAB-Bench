@@ -57,7 +57,7 @@ task_files = [
 
 for task_file in task_files:
     try:
-        with open(DATA_DIR / task_file, "r") as f:
+        with open(DATA_DIR / "seqqa" / task_file, "r") as f:
             for line in f:
                 data = json.loads(line.strip())
                 # Extract subtask name from filename

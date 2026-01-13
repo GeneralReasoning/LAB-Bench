@@ -39,7 +39,7 @@ def format_question(question: str, ideal: str, distractors: list[str], task_id: 
 # Load data from litqa-v2-public.jsonl
 all_data = []
 try:
-    with open(DATA_DIR / "litqa-v2-public.jsonl", "r") as f:
+    with open(DATA_DIR / "litqa2" / "litqa-v2-public.jsonl", "r") as f:
         for line in f:
             data = json.loads(line.strip())
             all_data.append({

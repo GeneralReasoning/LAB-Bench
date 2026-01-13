@@ -43,7 +43,7 @@ all_data = []
 task_file = "suppqa-v1-public.jsonl"
 
 try:
-    with open(DATA_DIR / task_file, "r") as f:
+    with open(DATA_DIR / "suppqa" / task_file, "r") as f:
         for line in f:
             data = json.loads(line.strip())
             all_data.append({

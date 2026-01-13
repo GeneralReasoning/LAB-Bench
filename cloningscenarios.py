@@ -41,7 +41,7 @@ def format_question(question: str, ideal: str, distractors: list[str], task_id: 
 # Load data from cloningscenarios-v1-public
 all_data = []
 try:
-    with open(DATA_DIR / "cloningscenarios-v1-public.jsonl", "r") as f:
+    with open(DATA_DIR / "cloningscenarios" / "cloningscenarios-v1-public.jsonl", "r") as f:
         for line in f:
             data = json.loads(line.strip())
             all_data.append({
