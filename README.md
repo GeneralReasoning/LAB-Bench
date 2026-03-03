@@ -22,22 +22,22 @@ Agents are given a standard environment with no sandbox or file system access.
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT).
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Tasks
 
 LAB-Bench contains 8 sub-environments:
 
-| Sub-Environment | Description | Tasks |
-|----------------|-------------|-------|
-| **LitQA2** | Scientific literature RAG questions | 248 |
-| **SuppQA** | Supplementary material interpretation | - |
-| **FigQA** | Scientific figure comprehension | - |
-| **TableQA** | Scientific table interpretation | - |
-| **DbQA** | Biological database queries (10 subtasks) | - |
-| **ProtocolQA** | Protocol analysis and troubleshooting | - |
-| **SeqQA** | Sequence analysis (15 subtasks) | - |
-| **CloningScenarios** | Molecular cloning workflows | - |
+| Sub-Environment | Description |
+|----------------|-------------|
+| **LitQA2** | Scientific literature RAG questions |
+| **SuppQA** | Supplementary material interpretation |
+| **FigQA** | Scientific figure comprehension |
+| **TableQA** | Scientific table interpretation |
+| **DbQA** | Biological database queries (10 subtasks) |
+| **ProtocolQA** | Protocol analysis and troubleshooting |
+| **SeqQA** | Sequence analysis (15 subtasks) |
+| **CloningScenarios** | Molecular cloning workflows |
 
 Each sub-environment has a **test** split.
 
@@ -85,7 +85,7 @@ Agents in LAB-Bench answer scientific research questions in a standard environme
 ```bibtex
 @article{laurent2024lab,
   title={LAB-Bench: Measuring Capabilities of Language Models for Biology Research},
-  author={Laurent, Jon M and Glenski, Maria and Goodrich, David and Srivastava, Shashank and Islam, Md Mamunur and others},
+  author={Laurent, Jon M. and Janizek, Joseph D. and Ruzo, Michael and Hinks, Michaela M. and Hammerling, Michael J. and Narayanan, Siddharth and Ponnapati, Manvitha and White, Andrew D. and Rodriques, Samuel G.},
   journal={arXiv preprint arXiv:2407.10362},
   year={2024}
 }
